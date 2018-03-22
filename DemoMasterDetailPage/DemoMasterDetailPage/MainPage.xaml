@@ -5,18 +5,10 @@
              x:Class="DemoMasterDetailPage.MainPage">
 
     <MasterDetailPage.Master>
-        <ContentPage Title="Maestro">
-            <StackLayout>
-                <Button Text="Soy el Maestro"></Button>
-            </StackLayout>
-        </ContentPage>
+        <local:Maestro></local:Maestro>
     </MasterDetailPage.Master>
     <MasterDetailPage.Detail>
-        <ContentPage>
-            <StackLayout>
-                <Button Text="Soy el Detalle"></Button>
-            </StackLayout>
-        </ContentPage>
+        <local:Detalles></local:Detalles>
     </MasterDetailPage.Detail>
 
 </MasterDetailPage>
